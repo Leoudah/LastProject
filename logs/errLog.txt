@@ -1,0 +1,212 @@
+2024-12-17	19:59:11		afefec1e-3dd4-4e8a-a875-44f075117ffc	TypeError : fsPromises.readFil is not a function
+2024-12-17	23:36:07		0a56cbfa-1abb-4f71-936c-21cdda07ab23	Error : Not In Whitelist
+2024-12-18	16:17:39		0c4484b1-0a8e-495a-999f-9d2351bd6072	Error : ENOENT: no such file or directory, stat 'c:\laragon\www\LastProject\views\main.html'
+2024-12-18	16:17:54		a77e683f-a208-45bc-ba12-8cf62d2985b3	Error : ENOENT: no such file or directory, stat 'c:\laragon\www\LastProject\views\main.html'
+2024-12-18	16:18:00		84901ff1-8248-46a7-b58c-c763eed833f4	Error : ENOENT: no such file or directory, stat 'c:\laragon\www\LastProject\views\main.html'
+2024-12-18	18:04:27		116cfe8b-ed43-4d1f-8030-4181a0027393	ReferenceError : c:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-18	18:05:21		87195536-3340-48c0-90fe-72db3ae2cfc4	ReferenceError : c:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-18	18:05:41		8ec75de9-2967-43cb-9938-f1456272e171	ReferenceError : res is not defined
+2024-12-18	18:07:34		54ded1b7-4e60-4e81-805c-8b56dd9ed615	ReferenceError : res is not defined
+2024-12-18	18:09:10		674a8df2-e9a3-49f6-b35e-794cdcbd8f29	ReferenceError : res is not defined
+2024-12-18	18:09:31		fd720211-a444-4d23-b59d-c5a3871087f0	ReferenceError : res is not defined
+2024-12-18	18:09:51		9bee807b-31b2-4925-b9d3-ee9d4bb48e75	ReferenceError : res is not defined
+2024-12-18	18:10:31		dd344985-565e-48e1-990e-8d216cad351e	ReferenceError : res is not defined
+2024-12-18	18:14:26		2e49ecee-8515-4c56-bc02-3f4014445cc7	ReferenceError : res is not defined
+2024-12-18	18:15:40		e2a93e2a-9c60-4bd0-af31-771cdc19f0c3	ReferenceError : res is not defined
+2024-12-19	13:09:31		466d4e10-e74e-4020-b850-383adb23a278	ReferenceError : res is not defined
+2024-12-19	13:10:09		55cc54d6-e90f-4b6c-bf50-7c4b5120b78c	ReferenceError : res is not defined
+2024-12-19	13:10:10		8e01db62-1a1e-470f-93da-ec21dc965278	ReferenceError : res is not defined
+2024-12-19	13:10:11		6eb43fea-e0a8-459e-9439-f27224aee640	ReferenceError : res is not defined
+2024-12-19	13:10:58		edb7ebfb-0943-42ac-bc51-9664caf7fd8b	Error : ENOENT: no such file or directory, stat 'c:\laragon\www\LastProject\views\main.html'
+2024-12-19	13:11:02		795ca5a9-31c3-42c2-8739-5e4a423b01e5	ReferenceError : res is not defined
+2024-12-19	13:11:03		77a7af8d-f9c5-4f64-a760-8c10558aebfc	ReferenceError : res is not defined
+2024-12-19	13:12:52		6d695d6d-00bb-4b80-8e1e-257c02d17ffe	ReferenceError : res is not defined
+2024-12-19	13:13:02		772f130a-7118-495f-bf8e-0edf5f4652f6	ReferenceError : res is not defined
+2024-12-19	13:13:03		d182498c-277b-418d-a175-338e5af26aee	ReferenceError : res is not defined
+2024-12-19	13:13:11		698bccc5-eaee-491e-a509-a913b7711c97	ReferenceError : res is not defined
+2024-12-19	13:15:24		2a55f4a7-46a4-4b26-8b6d-a484731ac0d3	ReferenceError : res is not defined
+2024-12-19	13:15:36		86db40a3-0001-45a8-b4aa-4d418c298b6e	ReferenceError : res is not defined
+2024-12-19	13:15:38		1cb61a21-b678-4198-8777-5c5091215b84	ReferenceError : res is not defined
+2024-12-19	13:15:59		bdb5a4c2-ce9d-4a56-aa16-1f0f9ee3494c	ReferenceError : res is not defined
+2024-12-19	13:16:00		51a5cc3c-6266-46d5-bbea-2313bd1afd91	ReferenceError : res is not defined
+2024-12-19	13:16:12		b56e4422-0cdf-48d6-9911-bc8f094350c2	ReferenceError : res is not defined
+2024-12-19	13:19:23		871e51a1-69b8-463c-a145-d3005c29fc61	ReferenceError : res is not defined
+2024-12-19	13:22:33		42ddf21d-4bf7-4e69-bfe2-f8d858583555	ReferenceError : res is not defined
+2024-12-19	13:22:35		a8b03188-feb0-4922-b6db-686a82fcf3f3	ReferenceError : res is not defined
+2024-12-19	13:23:25		f5c4d4cd-98d8-4d0c-86ba-11cf510ca480	ReferenceError : bslink is not defined
+2024-12-19	13:23:42		0a7edfd6-31e2-4a71-891e-6ad054a954e7	ReferenceError : res is not defined
+2024-12-19	13:24:35		fe0560bd-8fb6-47f7-9ddd-2d0ac9d7e216	Error : Failed to lookup view "navbar" in views directory "c:\laragon\www\LastProject\views"
+2024-12-19	13:24:35		6aaabfe4-b637-4be7-9f32-d85d46a525c9	Error : Failed to lookup view "navbar" in views directory "c:\laragon\www\LastProject\views"
+2024-12-19	13:24:38		cb5a6023-eb1a-4f63-b08c-7a428784d3ce	Error : Failed to lookup view "navbar" in views directory "c:\laragon\www\LastProject\views"
+2024-12-19	13:25:02		83164638-6c92-4b47-8049-29f5532a0b1c	ReferenceError : res is not defined
+2024-12-19	13:28:17		89c4782c-f26b-4a03-b5ff-b2a08b8f33b9	ReferenceError : res is not defined
+2024-12-19	13:28:17		9c2f37ed-8893-4a2b-9704-5ab0fcb20a99	ReferenceError : res is not defined
+2024-12-19	13:33:36		9d37d047-dd46-4a7a-a048-d1791db726a8	ReferenceError : res is not defined
+2024-12-19	13:35:00		ac3f4052-edc0-4148-bfc8-ad7910625270	ReferenceError : res is not defined
+2024-12-19	13:35:45		66949205-d338-4d68-a78b-a79a81237b7f	TypeError : path must be absolute or specify root to res.sendFile
+2024-12-19	13:35:57		d9e93923-92bd-454a-83d1-9d0dfb5ac9df	TypeError : path must be absolute or specify root to res.sendFile
+2024-12-19	13:37:30		5d971891-d114-4e87-967e-5eaa1ea0e4bb	ReferenceError : res is not defined
+2024-12-19	13:38:56		4666a77f-c7a8-4dc5-babc-4883f95b2824	ReferenceError : res is not defined
+2024-12-19	13:44:03		4d0278c1-ae9a-4767-8f4e-e902c6603d58	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:45:59		d7a9002a-d571-464a-b46f-bf32bc11b879	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:48:15		bd8506e3-0693-4420-97aa-8a297ed183fe	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:48:15		0d2b74be-5421-456c-be50-7d0c8353f4dd	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:49:18		881463fc-2c80-40f6-bbc1-49cd8978a23d	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:49:19		3c4409a4-9567-4a36-9eff-7d7889dd49aa	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|               <% plants.forEach(plant => { %>
+    29|                   <tr>
+    30|                       <td><%= plant.user_id %></td>
+    31|                       <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	13:50:07		094b38d5-5347-490c-9036-c9a113a07aa9	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:28
+    26|           </thead>
+    27|           <tbody>
+ >> 28|             <% plants.forEach(plant => { %>
+    29|               <tr>
+    30|                   <td><%= plant.user_id %></td>
+    31|                   <td><%= plant.plant_id %></td>
+
+plants is not defined
+2024-12-19	14:17:30		8a05fd0e-025e-4624-a2b1-4c0005841fd1	ReferenceError : pool is not defined
+2024-12-21	14:34:04		35741737-8027-4d35-81bd-25004d22c78b	Error : Not In Whitelist
+2024-12-21	14:35:25		e0003e63-a1ac-47cd-a94d-1ed1d15d8793	Error : Not In Whitelist
+2024-12-21	14:36:30		e569291c-abc6-494d-894b-4ed365bdeaa7	Error : Not In Whitelist
+2024-12-21	14:38:42		f54707e4-9486-41ca-9af6-76911d626117	Error : Not In Whitelist
+2024-12-21	14:39:59		71178b89-d1e4-4e0b-81e9-53232d1a4dcf	Error : Not In Whitelist
+2024-12-21	14:42:19		797e6f61-546c-4520-9801-f3273d174323	Error : Not In Whitelist
+2024-12-25	16:11:26		2ee5a3f5-b818-4151-8ae8-994da59c6aeb	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= plant_task_task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+plant_task_task is not defined
+2024-12-25	16:11:55		55590fa2-72be-457a-bbef-3ff5ce02ca32	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= plant_task.task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+plant_task is not defined
+2024-12-25	16:13:44		2ef65664-4ce1-4da9-8950-976fe7f054b4	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+task is not defined
+2024-12-25	16:17:39		725f7c87-a6a7-4bde-b70a-6cf40555c80f	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= task.task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+task is not defined
+2024-12-25	16:17:42		a09e7a1d-91a6-471b-b895-ce8045a7c348	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= task.task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+task is not defined
+2024-12-25	16:20:32		1d07270b-ac48-4100-bba3-21d022dfd203	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span><%= plant_task.task %></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+plant_task is not defined
+2024-12-25	16:24:45		931da8c7-9531-4b7b-8d7e-71ee73b9c9bd	ReferenceError : C:\laragon\www\LastProject\views\index.ejs:34
+    32|                 <div class="todo-item">
+    33|                     <input type="checkbox">
+ >> 34|                     <span class="<%= plant_task.task %>"></span>
+    35|                 </div>
+    36|               </div>
+    37|               
+
+plant_task is not defined
+2024-12-25	16:51:32		a5c9a15b-0b67-41ed-9e37-088df81f09a5	SyntaxError : Unexpected token ')' in C:\laragon\www\LastProject\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+2024-12-25	21:41:13		b43452e0-c61d-47ed-9e25-99e105adc99f	Error : Can't set headers after they are sent.
+2024-12-25	21:42:15		37d65140-51cb-4035-82fd-f7261eeb287e	Error : Can't set headers after they are sent.
+2024-12-25	22:41:49		231db7bb-a00a-4daf-b031-26ba2690fc4e	Error : Can't set headers after they are sent.
+2024-12-25	22:56:35		e37c38fa-ea7d-4adf-a1ad-78d281c1dd35	SyntaxError : Unexpected token ')' in C:\laragon\www\LastProject\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+2025-01-02	15:04:28		a3856260-af5c-408b-acdd-615b55259bf0	Error : Not In Whitelist

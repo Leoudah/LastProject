@@ -1,0 +1,67 @@
+<div id="addPlantPopup" class="popup-container" style="display: none">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h2>Add New Plant</h2>
+    <div class="container">
+      <!-- cards for Cabai -->
+      <div class="cards">
+        <form action="/add-plant" method="POST">
+          <button type="submit" class="submit-btn">
+            <img src="/img/plant/cabai.jpg" alt="Cabai"/>
+            <p>Cabai</p>
+            <input type="hidden" id="plant_id" name="plant_id" value="1" readonly>
+            <input type="hidden" id="time" name="time" value="0" readonly>
+          </button>
+        </form>
+      </div>
+
+      <!-- cards for Pakcoy -->
+      <div class="cards">
+        <form action="/add-plant" method="POST">
+          <button type="submit" class="submit-btn">
+            <img src="/img/plant/pakcoy.png" alt="Pakcoy"/>
+            <p>Pakcoy</p>
+            <input type="hidden" id="plant_id" name="plant_id" value="3" > 
+            <input type="hidden" id="time" name="time" value="0">
+          </button>
+        </form>
+      </div>
+
+      <!-- cards for Kangkung -->
+      <div class="cards">
+        <form action="/add-plant" method="POST">
+          <button type="submit" class="submit-btn">
+            <img src="/img/plant/kangkung.png" alt="Kangkung" />
+            <p>Kangkung</p>
+            <input type="hidden" id="plant_id" name="plant_id" value="4">
+            <input type="hidden" id="time" name="time" value="0">
+          </button>
+        </form>
+      </div>
+
+      <!-- cards for Bayam -->
+      <div class="cards">
+        <form action="/add-plant" method="POST">
+          <button type="submit" class="submit-btn">
+            <img src="/img/plant/bayam.png" alt="Bayam"/>
+            <p>Bayam</p>
+            <input type="hidden" id="plant_id" name="plant_id" value="2">
+            <input type="hidden" id="time" name="time" value="0">
+          </button>
+        </form>
+      </div>
+
+      <!-- cards for Daun Bawang -->
+      <div class="cards">
+        <form action="/add-plant" method="POST">
+          <button type="submit" class="submit-btn">
+            <img src="/img/plant/daunbawang.png" alt="Daun Bawang" />
+            <p>Daun Bawang</p>
+            <input type="hidden" id="plant_id" name="plant_id" value="5">
+            <input type="hidden" id="time" name="time" value="0">
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

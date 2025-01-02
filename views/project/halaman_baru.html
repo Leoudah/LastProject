@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilih Tanaman</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+      }
+
+      .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: calc(20% - 20px);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+      }
+
+      .card p {
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+      }
+
+      .card a {
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        .card {
+          width: calc(50% - 20px);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pilih Tanaman</h1>
+    <div class="container">
+      <div class="card">
+        <a href="kangkung.html">
+          <img src="media/kangkung.png" alt="Kangkung" />
+          <p>Kangkung</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="pakcoy.html">
+          <img src="media/pakcoy.png" alt="Pakcoy" />
+          <p>Pakcoy</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="cabai.html">
+          <img src="media/cabai.jpg" alt="Cabai" />
+          <p>Cabai</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="bayam.html">
+          <img src="media/bayam.png" alt="Bayam" />
+          <p>Bayam</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="daunbawang.html">
+          <img src="media/daunbawang.png" alt="Daun Bawang" />
+          <p>Daun Bawang</p>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<html>
+  <head>
+    <title>Halaman Baru</title>
+  </head>
+  <body>
+    <h1></h1>
+    <p></p>
+    <a href="index.html">Kembali ke halaman awal </a>
+  </body>
+</html>
